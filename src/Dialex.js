@@ -1,4 +1,4 @@
-import * as got from 'got';
+import axios from 'axios';
 
 class Dialex {
   key: string;
@@ -13,13 +13,13 @@ class Dialex {
     const self = this;
 
     return new Promise((resolve, reject) => {
-      got(`${self.url}/api/v1/process`, {
-        query: {
+      axios.get(`${self.url}/api/v1/process`, {
+        params: {
           apikey: self.key,
           data: transformContent,
           lang: lang
         }})
-        .then(response => resolve(response.body))
+        .then(response => resolve(response.data.output.result))
         .catch(err => reject(err.message || err));
     });
   }
