@@ -1,6 +1,6 @@
 {
   "name": "@hyperlab-solutions/dialex",
-  "version": "0.0.0",
+  "version": "0.5.0b",
   "description": "JavaScript Client for HyperLab Dialex API",
   "main": "lib/dialex.min.js",
   "engines": {
