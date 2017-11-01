@@ -6,7 +6,7 @@ const env = require('yargs').argv.env;
 const pkg = require('./package.json');
 const libraryName = pkg.name;
 
-let plugins = [];
+let plugins = [new webpack.IgnorePlugin(/^electron$/)];
 let outputFile;
 
 if (env === 'build') {
@@ -40,6 +40,8 @@ const config = {
       }
     ]
   },
+  target: 'node',
+  node: { process: false },
   resolve: {
     modules: [path.resolve('./node_modules'), path.resolve('./src')],
     extensions: ['.json', '.js']
