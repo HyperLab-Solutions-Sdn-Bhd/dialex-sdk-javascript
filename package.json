@@ -1,11 +1,14 @@
 {
-  "name": "dialex",
-  "version": "1.0.0",
+  "name": "@hyperlab-solutions/dialex",
+  "version": "0.0.0",
   "description": "JavaScript Client for HyperLab Dialex API",
   "main": "lib/dialex.min.js",
   "engines": {
     "node": ">=6.x.x",
     "npm": ">=5.x"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "build": "webpack --env build",

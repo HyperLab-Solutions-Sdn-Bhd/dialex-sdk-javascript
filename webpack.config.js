@@ -4,7 +4,7 @@ const path = require('path');
 const env = require('yargs').argv.env;
 
 const pkg = require('./package.json');
-const libraryName = pkg.name;
+const libraryName = pkg.name.split('/')[1];
 
 let plugins = [new webpack.IgnorePlugin(/^electron$/)];
 let outputFile;
