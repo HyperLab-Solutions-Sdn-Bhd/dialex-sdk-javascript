@@ -18,7 +18,8 @@
     "lint": "eslint .",
     "flow": "flow check",
     "precommit": "npm run flow && npm run lint",
-    "prepush": "npm run flow && npm run lint"
+    "prepush": "npm run flow && npm run lint",
+    "prepublish": "npm run flow && npm run lint"
   },
   "repository": {
     "type": "git",
