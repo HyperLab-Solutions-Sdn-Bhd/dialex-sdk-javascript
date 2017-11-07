@@ -35,3 +35,20 @@ const dialex = new Dialex('apiKey');
 let dial = new dialex.Dialex('apiKey');
 </script>
 ```  
+
+## Developing  
+
+Clone using git:  
+`git clone git@github.com:HyperLab-Solutions-Sdn-Bhd/dialex-sdk-javascript.git`  
+
+Install dependencies:  
+`npm install`  
+
+Testing during development:  
+`npm run dev`  
+
+To build for production:  
+`npm run build`  
+
+Run tests:  
+`npm test`
