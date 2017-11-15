@@ -6,7 +6,7 @@ class Dialex {
 
   constructor(key: string) {
     this.key = key;
-    this.url = 'https://dialexherok.herokuapp.com';
+    this.url = 'https://api.dialex.xyz';
   }
 
   transform(transformContent: string, lang: string): Promise<any> {
