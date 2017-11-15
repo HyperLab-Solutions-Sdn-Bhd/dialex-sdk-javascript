@@ -1,6 +1,10 @@
 ## Change Log
 
-### v1.0.0 (2017/11/15 04:30 +00:00)
+### v1.0.0 (2017/11/15 04:33 +00:00)
+- [d6e5e62](https://github.com/HyperLab-Solutions-Sdn-Bhd/dialex-sdk-javascript/commit/d6e5e6218030f72af323edbb70de3a7a5fc06a5f) Dev build (@riyadhalnur)
+- [588aedd](https://github.com/HyperLab-Solutions-Sdn-Bhd/dialex-sdk-javascript/commit/588aedd8b1ca3a75912a1ec1b16bd3f2dc73a70a) Update CHANGELOG (@riyadhalnur)
+- [f8193cd](https://github.com/HyperLab-Solutions-Sdn-Bhd/dialex-sdk-javascript/commit/f8193cd14191a77fd3453e7843fa8c2a61162554) Bump to v1 (@riyadhalnur)
+- [dadc9da](https://github.com/HyperLab-Solutions-Sdn-Bhd/dialex-sdk-javascript/commit/dadc9da1e1978bea3b96a1bfc4e8d85cdefd73fb) Update endpoint to production URL (@riyadhalnur)
 - [1d75fa3](https://github.com/HyperLab-Solutions-Sdn-Bhd/dialex-sdk-javascript/commit/1d75fa361a93f6fa0802cbe5efe93664fb73cd6c) Add instructions for developing in README (@riyadhalnur)
 - [d48c6af](https://github.com/HyperLab-Solutions-Sdn-Bhd/dialex-sdk-javascript/commit/d48c6af194aaa0b8601cfea6173faef5b13e0899) Small tweak to README (@riyadhalnur)
 - [15c56b2](https://github.com/HyperLab-Solutions-Sdn-Bhd/dialex-sdk-javascript/commit/15c56b2a18e82e940a43289f111ab409907544c1) Add vulnerabilites badge (@riyadhalnur)
